@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontainer {
+  width: 90vw;
+  height: 90vh;
+  padding: 10px;
+  background-color: #c7f0c7;
+  border: 5px solid #238000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headermain {
+  display: flex;
+  flex-direction: row;
+  background-color: #add8e6;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 5px solid #2000ff;
+  padding: 5px;
+  gap: 10px;
+}
+
+.headerleft,
+.headerright {
+  width: 35%;
+  height: 90%;
+  background-color: #fcdab9;
+  border: 5px solid red;
+}
+
+.headercenter {
+  width: 30%;
+  height: 90%;
+  background-color: #ffdead;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.headercenter-inner {
+  display: flex;
+  width: 98%;
+  height: 100%;
+  background-color: #fcdab9;
+  border: 5px solid red;
+}
+
+.headercenter1,
+.headercenter2 {
+  flex: 1;
+  border: #f40105 solid 5px;
+  background-color: #fac0cb;
+  height: 100%;
+}
+
+.headercenter1 {
+  border-right: 5px solid #f40105;
+}
+
+.contentmain {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.leftcontainer {
+  flex: 1.5;
+  background-color: #fabbbb;
+  border: 5px solid #a52b2a;
+}
+
+.rightcontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightcontainer1,
+.rightcontainer2 {
+  flex: 1;
+  background-color: #fabbbb;
+  border: 5px solid #a52b2a;
+}
+
+.footermain {
+  display: flex;
+  height: 120px;
+  background-color: #add8e6;
+  border: 5px solid #2000ff;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footerleft,
+.footerright {
+  width: 40%;
+  height: 90%;
+  background-color: #e2deff;
+  border: 5px solid #6a5acd;
+}
+
+.footercenter1,
+.footercenter2 {
+  width: 20%;
+  height: 90%;
+  background-color: #fcdab9;
+  border: 5px solid #f78072;
+}
