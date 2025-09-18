@@ -96,7 +96,7 @@ function Footer() {
     <div className="footermain">
       <FooterLeft />
       <FooterCenter1 course={"C-PCIT9"}/>
-      <FooterCenter2 course={"IT2A"}/>
+      <FooterCenter2 course={"IT3A"}/>
       <FooterRight />
     </div>
   );
