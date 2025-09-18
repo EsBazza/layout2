@@ -10,6 +10,12 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+.content{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  color: #238000;
+  text-align: center
+}
 
 .maincontainer {
   width: 90vw;
@@ -37,14 +43,14 @@ html, body {
 
 .headerleft,
 .headerright {
-  width: 35%;
+  flex-grow: 7;
   height: 90%;
   background-color: #fcdab9;
   border: 5px solid red;
 }
 
 .headercenter {
-  width: 30%;
+  flex-grow: 6;
   height: 90%;
   background-color: #ffdead;
   border: 5px solid red;
@@ -67,6 +73,14 @@ html, body {
   border: #f40105 solid 5px;
   background-color: #fac0cb;
   height: 100%;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #238000;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .headercenter1 {
@@ -81,13 +95,13 @@ html, body {
 }
 
 .leftcontainer {
-  flex: 1.5;
+  flex-grow: 1.5;
   background-color: #fabbbb;
   border: 5px solid #a52b2a;
 }
 
 .rightcontainer {
-  flex: 1;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -113,7 +127,7 @@ html, body {
 
 .footerleft,
 .footerright {
-  width: 40%;
+  flex-grow: 3;
   height: 90%;
   background-color: #e2deff;
   border: 5px solid #6a5acd;
@@ -121,8 +135,15 @@ html, body {
 
 .footercenter1,
 .footercenter2 {
-  width: 20%;
+  flex-grow: 1;
   height: 90%;
   background-color: #fcdab9;
   border: 5px solid #f78072;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #238000;
+  font-family: 'Courier New', Courier, monospace;
 }
